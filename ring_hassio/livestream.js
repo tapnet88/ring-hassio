@@ -60,7 +60,7 @@ function startStream() {
                     });
                     return [4 /*yield*/, ringApi.getCameras()];
                 case 1:
-                    camera = (_a.sent())[0];
+                    camera = (_a.sent())[1];
                     if (!camera) {
                         console.log('No cameras found');
                         return [2 /*return*/];
